@@ -18,6 +18,7 @@ Saudi Arabia receives some of the highest solar irradiance in the world, making 
 ```text
 ├── Time_Series_project.ipynb   # Main notebook
 └── README.md
+```
 ---
 
 ## 🔄 Workflow
