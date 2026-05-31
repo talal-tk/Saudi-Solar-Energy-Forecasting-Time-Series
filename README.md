@@ -6,19 +6,18 @@ A comprehensive time series forecasting project that predicts **Global Horizonta
 
 ## 📌 Project Overview
 
-Saudi Arabia receives some of the highest solar irradiance in the world, making accurate solar energy forecasting critical for grid management and renewable energy planning. This project builds and compares **9 forecasting models** across three model families to identify the most accurate approach for monthly GHI prediction.
+Saudi Arabia receives some of the highest solar irradiance in the world, making accurate solar energy forecasting critical for grid management and renewable energy planning. This project builds and compares **13 forecasting models** across three model families to identify the most accurate approach for monthly GHI prediction.
 
-**Dataset:** Monthly solar and weather measurements from monitoring stations across all Saudi regions (2017–2021), aggregated into a national average time series of 60 data points.
+**Dataset:** Monthly solar and weather measurements sourced across **42 industrial and major cities** spanning all Saudi regions (2017–2021), aggregated into a comprehensive national average time series of 60 data points.
+**Data Source:** Officially sourced from the **Saudi National Open Data Platform** (منصة البيانات المفتوحة السعودية).
 
 ---
 
 ## 🗂️ Project Structure
 
-```
-├── TS_project_talal_Fahad.ipynb   # Main notebook
+```text
+├── Time_Series_project.ipynb   # Main notebook
 └── README.md
-```
-
 ---
 
 ## 🔄 Workflow
