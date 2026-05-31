@@ -138,4 +138,4 @@ pip install pandas numpy matplotlib scikit-learn statsmodels xgboost tensorflow
 
 ## 👥 Authors
 
-**Talal & Fahad** — Data Science Project
+**Talal ** 
