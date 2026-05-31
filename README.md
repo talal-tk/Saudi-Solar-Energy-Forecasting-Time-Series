@@ -136,6 +136,10 @@ pip install pandas numpy matplotlib scikit-learn statsmodels xgboost tensorflow
 
 ---
 
-## 👥 Authors
+## 👥 Author
 
-**Talal ** 
+* **Talal Alshehri**
+  * *Role:* End-to-end Machine Learning & Deep Learning Development, Feature Engineering, Time Series Modeling (13 Models), and Evaluation.
+
+---
+*Developed as part of the **Time Series Analysis using Python** program at **Tuwaiq Academy**.* 🚀
