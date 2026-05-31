@@ -1,5 +1,3 @@
-# Saudi-Solar-Energy-Forecasting-Time-Series
-
 # 🌞 Solar Energy Forecasting — Saudi Arabia
 
 A comprehensive time series forecasting project that predicts **Global Horizontal Irradiance (GHI)** across Saudi Arabia using statistical, machine learning, and deep learning models.
