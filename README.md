@@ -100,9 +100,9 @@ Below is the comprehensive performance ranking of all 11 developed models, sorte
 
 ---
 
-### 📈 Visualizing the Forecasts
+### 📈 Visualizing Model Performance
 
-Below is the evaluation plot comparing the actual recorded Global Horizontal Irradiance (GHI) against the predictions made by our top-performing models over the test period:
+Below is a bar chart comparing the Root Mean Squared Error (RMSE) across all evaluated statistical, machine learning, and deep learning models. Lower values indicate better forecasting accuracy:
 
 <img width="1085" height="624" alt="download (2)" src="https://github.com/user-attachments/assets/e9d38cb1-5efb-4d56-accb-8b8768e7b79c" />
 
