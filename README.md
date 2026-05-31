@@ -75,6 +75,15 @@ All deep learning models use:
 ---
 
 ### 🏆 Model Performance Summary
+*Replace these placeholder numbers with your actual project results:*
+
+| Model Family | Best Model | Test RMSE | Test MAE | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **Statistical** | SARIMA | *[0.00]* | *[0.00]* | — |
+| **Machine Learning** | **XGBoost** | **[0.00]** | **[0.00]** | 🏆 **Best Performer** |
+| **Deep Learning** | LSTM | *[0.00]* | *[0.00]* | — |
+
+> 📌 **Conclusion:** The **[Winner Model]** model outperformed the other architectures, proving to be the most robust approach for handling the sharp seasonal variations and complex non-linear patterns inherent in Saudi Arabia's solar irradiance data.
 
 
 ## 🚀 Getting Started
