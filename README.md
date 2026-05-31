@@ -98,6 +98,15 @@ Below is the comprehensive performance ranking of all 11 developed models, sorte
 >
 > In time series forecasting with small datasets (60 data points), simpler models often generalize much better than complex architectures. Complex deep learning models like **LSTM** and **GRU** suffered from severe overfitting because they require a massive volume of historical data to properly optimize their dense weight matrices, which explains their high error rates compared to the robust, lower-variance Linear Regression baseline.
 
+---
+
+### 📈 Visualizing the Forecasts
+
+Below is the evaluation plot comparing the actual recorded Global Horizontal Irradiance (GHI) against the predictions made by our top-performing models over the test period:
+
+<p align="center">
+  <img src="<img width="1085" height="624" alt="download (2)" src="https://github.com/user-attachments/assets/f1259aa7-edd2-4ae2-8521-e965ab39b476" />" alt="Actual vs Predicted GHI Chart" width="85%">
+</p>
 
 ## 🚀 Getting Started
 
