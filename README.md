@@ -75,15 +75,28 @@ All deep learning models use:
 ---
 
 ### 🏆 Model Performance Summary
-*Replace these placeholder numbers with your actual project results:*
 
-| Model Family | Best Model | Test RMSE | Test MAE | Status |
-| :--- | :--- | :--- | :--- | :--- |
-| **Statistical** | SARIMA | *[0.00]* | *[0.00]* | — |
-| **Machine Learning** | **XGBoost** | **[0.00]** | **[0.00]** | 🏆 **Best Performer** |
-| **Deep Learning** | LSTM | *[0.00]* | *[0.00]* | — |
+Below is the comprehensive performance ranking of all 11 developed models, sorted from the lowest error (best) to the highest error:
 
-> 📌 **Conclusion:** The **[Winner Model]** model outperformed the other architectures, proving to be the most robust approach for handling the sharp seasonal variations and complex non-linear patterns inherent in Saudi Arabia's solar irradiance data.
+| Rank | Model | Model Family | Test RMSE | Test MAE | Status |
+| :---: | :--- | :--- | :---: | :---: | :--- |
+| **1** | **Linear Regression** | Machine Learning | **157.44** | **119.16** | 🏆 **Best Performer (Winner)** |
+| **2** | **XGBoost** | Machine Learning | **267.85** | **215.13** | Strong ML Baseline |
+| **3** | **Random Forest** | Machine Learning | **304.08** | **236.00** | — |
+| **4** | **Simple RNN** | Deep Learning | **312.93** | **261.69** | Best Deep Learning |
+| **5** | **ARIMA** | Statistical | **359.25** | **307.20** | — |
+| **6** | **SARIMA** | Statistical | **395.41** | **339.35** | — |
+| **7** | **Gradient Boosting** | Machine Learning | **415.64** | **292.68** | — |
+| **8** | **ARMA** | Statistical | **496.17** | **423.84** | — |
+| **9** | **Baseline** | Statistical | **535.28** | **436.89** | — |
+| **10** | **Decision Tree** | Machine Learning | **541.03** | **414.93** | — |
+| **11** | **Baseline_ML** | Machine Learning | **582.42** | **495.33** | — |
+| **12** | **LSTM** | Deep Learning | **1619.12** | **1475.56** | Overfitted due to data size |
+| **13** | **GRU** | Deep Learning | **1700.13** | **1519.14** | Overfitted due to data size |
+
+> 📌 **Key Insight & Conclusion:** > The **Linear Regression** model significantly outperformed all other configurations, achieving the lowest error rates ($RMSE = 157.44$, $MAE = 119.16$). 
+>
+> In time series forecasting with small datasets (60 data points), simpler models often generalize much better than complex architectures. Complex deep learning models like **LSTM** and **GRU** suffered from severe overfitting because they require a massive volume of historical data to properly optimize their dense weight matrices, which explains their high error rates compared to the robust, lower-variance Linear Regression baseline.
 
 
 ## 🚀 Getting Started
